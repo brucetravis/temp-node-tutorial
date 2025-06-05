@@ -284,6 +284,3 @@ function greet() {
 # Invoking a function - running/calling or using the function — making it do its job.
 
 greet(); // This is invoking the function, and it prints "Hello!"
-
-
-

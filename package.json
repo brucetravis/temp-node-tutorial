@@ -4,7 +4,10 @@
   "description": "function prompt { \"PS \" + (Split-Path -Leaf (Get-Location)) + \"> \" }",
   "main": "1-intro.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "running": "7-mind-grenade.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +15,8 @@
   "dependencies": {
     "bootstrap": "^5.3.6",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
